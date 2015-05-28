@@ -63,7 +63,7 @@ public class LuhnMaskingConverter extends ClassicConverter {
         return mask(e.getFormattedMessage());
     }
 
-    static String mask(String formattedMessage) {
+    public static String mask(String formattedMessage) {
         if (!hasEnoughDigits(formattedMessage)) {
             return formattedMessage;
         }
