@@ -125,6 +125,9 @@ public class LuhnMaskingConverter extends ClassicConverter {
     }
 
     static boolean hasEnoughDigits(String formattedMessage) {
+    	if (formattedMessage == null)
+    		return false;
+    	
         int digits = 0;
         int length = formattedMessage.length();
         char current;
