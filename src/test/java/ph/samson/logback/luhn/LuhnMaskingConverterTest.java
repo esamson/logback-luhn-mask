@@ -23,6 +23,16 @@ import static ph.samson.logback.luhn.LuhnMaskingConverter.*;
 
 public class LuhnMaskingConverterTest {
 
+	@Test
+	public void testHasEnoughDigitsFormattedMessageNull(){
+		assertEquals(false, hasEnoughDigits(null));
+	}
+	
+	@Test
+	public void testMaskFormattedMessageNull(){
+		assertEquals(null, mask(null));
+	}
+	
     @Test
     public void testStripSeparatorsSpaces() {
         assertEquals("5137004986396403", stripSeparators("5137 0049 8639 6403"));
