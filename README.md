@@ -1,6 +1,6 @@
 # Logback Luhn Mask
 
-[![Build Status](https://buildhive.cloudbees.com/job/esamson/job/logback-luhn-mask/badge/icon)](https://buildhive.cloudbees.com/job/esamson/job/logback-luhn-mask/)
+[![Release](https://jitpack.io/v/com.github.paymaya/logback-luhn-mask.svg)](https://jitpack.io/#com.github.paymaya/logback-luhn-mask)
 
 This is a [Logback Converter](http://logback.qos.ch/manual/layouts.html#customConversionSpecifier)
 that masks any possible credit card numbers in your log messages.
@@ -19,7 +19,7 @@ If you are using Maven, just add it to your runtime dependencies:
     <dependency>
         <groupId>ph.samson.logback</groupId>
         <artifactId>logback-luhn-mask</artifactId>
-        <version>1.0</version>
+        <version>1.0.2</version>
         <scope>runtime</scope>
     </dependency>
 

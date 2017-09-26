@@ -7,6 +7,10 @@
         <version>2</version>
     </parent>
 
+    <properties>
+        <logback.version>1.2.3</logback.version>
+    </properties>
+
     <groupId>ph.samson.logback</groupId>
     <artifactId>logback-luhn-mask</artifactId>
     <version>1.0.2-SNAPSHOT</version>
@@ -36,13 +40,13 @@
         <developerConnection>scm:git:git@github.com:esamson/logback-luhn-mask.git</developerConnection>
         <url>https://github.com/esamson/logback-luhn-mask</url>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
 
     <dependencies>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.0.10</version>
+            <version>${logback.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
