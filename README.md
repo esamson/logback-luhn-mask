@@ -19,7 +19,7 @@ If you are using Maven, just add it to your runtime dependencies:
     <dependency>
         <groupId>ph.samson.logback</groupId>
         <artifactId>logback-luhn-mask</artifactId>
-        <version>1.0</version>
+        <version>1.0.2</version>
         <scope>runtime</scope>
     </dependency>
 
